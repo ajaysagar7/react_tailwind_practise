@@ -56,7 +56,7 @@ const SubNavbar = () => {
                                     <button className="nav-link group-hover:text-primary">
                                         {link.name}
                                     </button>
-                                    <div className="hidden group-hover:block bg-white p-2 absolute space-y-2">
+                                    <div className="hidden group-hover:block bg-white p-2 absolute space-y-2 z-10">
                                         {link.items.map((item, itemIndex) => (
                                             <a key={itemIndex} href={item.path} className="block text-gray-700 hover:text-blue-500">
                                                 {item.name}
